@@ -1,0 +1,8 @@
+<p><%= @video['title']%></p>
+<p><%= @video['description']%></p>
+<p><%= @video['url']%></p>
+<p><%= @video['genre']%></p>
+
+
+
+<li><iframe src="https://youtube.com/embed/<%= @video['url']%>"width="640" height="390" frameborder="0" allowFullScreen></iframe></li>
